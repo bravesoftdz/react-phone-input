@@ -13,6 +13,8 @@ npm install react-phone-input --save
 
 ```jsx
 React.render(
+  import ReactPhoneInput from 'react-phone-input';
+  
   <ReactPhoneInput defaultCountry={'us'} onChange={handleOnChange)/>,
   document.getElementById('content'));
 ```
